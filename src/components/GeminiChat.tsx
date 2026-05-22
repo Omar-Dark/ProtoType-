@@ -52,7 +52,7 @@ export default function GeminiChat() {
     {
       id: "0",
       role: "assistant",
-      content: "Hi! I'm your **Free Gemini AI Assistant** 🤖\n\nAsk me anything about computer science — algorithms, data structures, system design, code concepts, and more!",
+      content: "HI! How can I help you? ⚡\n\nAsk me anything about computer science — algorithms, data structures, system design, code concepts, and more!",
     },
   ]);
   const [input, setInput] = useState("");
@@ -191,7 +191,7 @@ export default function GeminiChat() {
             <div>
               <div className="flex items-center gap-1.5">
                 <span style={{ color: '#F8FAFC', fontSize: '14px', fontWeight: 600 }}>
-                  Gemini AI Assistant
+                  Devpath Ai
                 </span>
                 <Sparkles size={12} style={{ color: '#DEFF9A' }} />
               </div>
